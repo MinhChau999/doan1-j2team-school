@@ -1,0 +1,47 @@
+/* style in css */
+/* import font from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gugi&family=Lato:ital@1&family=Roboto&family=Sofia&display=swap');
+
+:root{
+    --light-gray: #2b3032a1;
+    --primary-color: #45ccb8;
+    --border: #3a3737;
+    --text-color: #fff;
+    --text-color-secondary: #2b3032;
+    --roboto: "Roboto", sans-serif;
+    --gugi: "Gugi", cursive;
+    --sofia: "Sofia", cursive;
+    --anton: "Anton", sans-serif;
+    --banner-height: 300px;
+}
+body{
+    overflow: visible !important;
+    padding-right: 0 !important;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(37, 37, 37);
+    font-family: "Poppins", sans-serif;
+}
+
+/* unvisited link */
+
+a:link {
+    color: #3535ec;
+    text-decoration: none;
+}
+/* visited link */
+a:visited {
+    color: #7931ee;
+}
+/* mouse over link */
+a:hover {
+    font-style: bold;
+    color: #FF0000;
+}
+/* selected link */
+a:active {
+    color: #00FF00;
+}
